@@ -1,0 +1,6 @@
+pack_id: seed
+title: Seed Corpus
+license: CC0-1.0
+sources:
+- path: sources/seed/first_aid_basics.md
+  sha256: 2ade8cb2246766d72d874f34e49364aff0d3bb00de28422546ade36837ae7c29

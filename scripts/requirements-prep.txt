@@ -1,0 +1,3 @@
+# Reference prep tooling dependencies (pinned for reproducibility)
+beautifulsoup4==4.12.3
+markdownify==0.13.1
