@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "axiom-knowledge-core"
+version = "0.1.0"
+description = "Compile raw sources into deterministic, inspectable knowledge artifacts, with offline views."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "Apache-2.0"}
+authors = [{name = "BigBirdReturns"}]
+dependencies = [
+  "pydantic>=2.6",
+  "typer>=0.12",
+  "rich>=13.7",
+  "orjson>=3.10",
+]
+
+[project.scripts]
+ak = "axiom_knowledge_core.cli:app"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

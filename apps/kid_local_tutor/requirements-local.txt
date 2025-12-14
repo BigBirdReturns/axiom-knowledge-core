@@ -1,0 +1,7 @@
+# Optional local-first backends (may require native toolchains)
+#
+# Install these only when you want full offline speech + local LLM + TTS.
+
+whispercpp>=0.2.0
+llama-cpp-python>=0.2.0
+piper-tts>=0.1.0
