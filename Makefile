@@ -1,4 +1,4 @@
-.PHONY: help install policy compile validate tutor test
+.PHONY: help install policy compile validate tutor test pack-audit pack-runtime
 
 help:
 	@echo "Targets:"
@@ -8,6 +8,8 @@ help:
 	@echo "  validate  Run unit tests for AXIOM Knowledge Core"
 	@echo "  tutor     Run Streamlit tutor (uses TUTOR_COMPILED_DIR if set)"
 	@echo "  test      Run all tests"
+	@echo "  pack-audit  Build audit pack zips under dist/"
+	@echo "  pack-runtime Build runtime pack zips under dist/"
 
 install:
 	python -m pip install -U pip
@@ -30,3 +32,9 @@ tutor:
 
 test:
 	python -m pytest -q
+
+pack-audit:
+	python scripts/pack.py build --pack first-aid-fm21-11 --flavor audit
+
+pack-runtime:
+	python scripts/pack.py build --pack first-aid-fm21-11 --flavor runtime

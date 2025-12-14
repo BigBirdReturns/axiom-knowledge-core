@@ -12,6 +12,27 @@ The goal is simple:
 - The system compiles them into deterministic, diffable artifacts.
 - Tutors, dashboards, curricula, and QA become views over that compiled substrate.
 
+
+## Packs (v0.2)
+
+Knowledge ships as self-contained packs.
+
+Two flavors:
+
+- **Audit pack**: sources + compiled, for review and deterministic rebuild proofs.
+- **Runtime pack**: compiled only, for offline devices and distribution.
+
+Build pack zips:
+
+```bash
+python scripts/pack.py verify --pack first-aid-fm21-11
+python scripts/pack.py build --pack first-aid-fm21-11 --flavor audit
+python scripts/pack.py build --pack first-aid-fm21-11 --flavor runtime
+```
+
+See `docs/packs.md` for the contract.
+
+
 ## Repo layout
 
 - `packages/axm/`
@@ -89,6 +110,8 @@ This repo only compiles sources that are already in a canonical, reviewable form
 - Do not commit PDFs, HTML, or ZIM files under `sources/`
 
 See `CONTRIBUTING.md` for the full contract.
+
+See `docs/packs.md` for the pack format, manifest rules, and recommended test corpora.
 
 For reference conversion pipelines (HTML to Markdown, Kiwix notes), see `scripts/` and `docs/recipes/`.
 
