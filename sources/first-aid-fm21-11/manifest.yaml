@@ -1,0 +1,26 @@
+pack_id: first-aid-fm21-11
+title: FM 21-11 First Aid for Soldiers (1943)
+license: Public domain (U.S. Government work; 17 U.S.C. § 105).
+sources:
+- path: sources/first-aid-fm21-11/01_section_i_general.md
+  sha256: e5cf3b1b322f41c0ed95a44e8a6648e780e3bb6468f786b577b45674f3077172
+- path: sources/first-aid-fm21-11/02_section_ii_wounds.md
+  sha256: dda4b202f9a1c8749802c7fd3b13e790c345d465d8f32ba32ebc8663fd94544f
+- path: sources/first-aid-fm21-11/03_section_iii_fractures_dislocations_and_sprains.md
+  sha256: 8e009ba5ff184b7015239dc910c54efac86359a0976c469bfaf369ce73a5898b
+- path: sources/first-aid-fm21-11/04_section_iv_common_emergencies_and_health_measures.md
+  sha256: a2de0cd1bf36bf10ba63146107c7a964b71091550b8a5b164b77d715dc296d5c
+- path: sources/first-aid-fm21-11/05_section_v_effects_of_severe_heat_and_measures_for_use_in_the_desert.md
+  sha256: dd8cca25b58d042a714385257b235629d954909f9cd5c544852fda6ab7223e8e
+- path: sources/first-aid-fm21-11/06_section_vii_measures_for_use_in_the_jungle_and_tropics.md
+  sha256: b2f6f5b20fb39be06b3fa18a49e7b0f55a66a9e2120ed61143d0868043892ed9
+- path: sources/first-aid-fm21-11/07_section_viii_measures_for_use_in_aircraft_and_tank_injuries.md
+  sha256: 95c29d8f496307ded4ef7e2b06cdaaeec335e4e4f18345ccb8a1d8014bcc1350
+- path: sources/first-aid-fm21-11/08_section_ix_transportation_of_the_sick_and_injured.md
+  sha256: 624f95bb63cb7327915370758c8c18ca52aadca300976e1c79814e6b4fa4aeaa
+- path: sources/first-aid-fm21-11/09_section_x_war_gases.md
+  sha256: 96695166821a89b0d87093e4c2764af5b0ca1c433823cdb6ac27c425165dc4bd
+- path: sources/first-aid-fm21-11/10_section_xi_description_of_first_aid_kits_and_packets.md
+  sha256: 11abd332336bbad5bf695dcbe357e82d2d77a4c02650f1a519ef6464633af715
+- path: sources/first-aid-fm21-11/11_section_xii_uses_of_contents_of_first_aid_kits_and_pacekets.md
+  sha256: aeed3581d257cef55ca3860f5e162a47af0cbd317e67a85d3a041649253476e5
